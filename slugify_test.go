@@ -18,7 +18,7 @@ func TestSlugify(t *testing.T) {
 		t.Fail()
 	}
 
-	if S("aáäâeéëeiíiîoóöőôuúüűunç·/_,:;") != "aaaaeeeeiiiiooooouuuuunc" {
+	if S("aáäâeéëeiíiîoóöőôuúüűunçß·/_,:;") != "aaaaeeeeiiiiooooouuuuuncss" {
 		t.Fail()
 	}
 

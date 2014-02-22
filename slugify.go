@@ -30,6 +30,7 @@ var replacements = map[rune]string{
 	'ü':  "u",
 	'ű':  "u",
 	'ç':  "c",
+	'ß':  "ss",
 	'·':  "-",
 	'–':  "-",
 	'/':  "-",
